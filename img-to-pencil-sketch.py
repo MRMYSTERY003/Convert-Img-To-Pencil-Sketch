@@ -3,7 +3,7 @@ by Mr_Mystery check out our yt channel link in readme file
 '''
 
 import cv2        #importing opencv2 
-img = cv2.imread('image.jpg')     # reading the image
+img = cv2.imread('image.jpg')     # reading the image       you can give the path of your image file here insted of image.jpg
 
 #converting the image to pencil sketch
 gray_image = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)    
